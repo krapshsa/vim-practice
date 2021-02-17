@@ -1,0 +1,23 @@
+{
+    "vim.insertModeKeyBindingsNonRecursive": [
+         {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before":["g", "="],
+            "after":["m", "a", "g", "g", "=", "G", "`", "a"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.hlsearch": true,
+    "vim.easymotion": true,
+    "vim.smartRelativeLine": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    }
+}
